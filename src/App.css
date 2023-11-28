@@ -1,0 +1,53 @@
+/* Estilos generales del formulario */
+.container-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#tituloH1 {
+  text-align: center;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block; 
+  font-size: 12px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65100;
+}
+
+@media (max-width: 600px) {
+  .container-form {
+    max-width: 100%;
+    padding: 5px;
+  }
+}
